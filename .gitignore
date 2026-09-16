@@ -1,0 +1,104 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Django
+*.log
+local_settings.py
+/staticfiles/
+/media/
+/static/
+db.sqlite3
+db.sqlite3-journal
+.coverage
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.netrwhist
+*.sublime-project
+*.sublime-workspace
+
+# Node/React
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+*.tsbuildinfo
+build/
+dist/
+
+# Docker
+.dockerignore
+
+# SSL Certificates (never commit!)
+nginx/certs/*.pem
+!nginx/certs/.gitkeep
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+*.log
+
+# Database backups
+*.sql
+*.sql.gz
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.~*
+
+# IDE Settings
+.vscode/settings.json
+.idea/workspace.xml
+
+# Local environment overrides
+local_settings.py
+.env.production.local

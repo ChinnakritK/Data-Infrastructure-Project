@@ -1,0 +1,100 @@
+# ============================================
+# Django & Framework Dependencies
+# ============================================
+Django==4.2.8
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+django-environ==0.21.0
+django-extensions==3.2.3
+django-filter==23.5
+
+# ============================================
+# Database Drivers
+# ============================================
+psycopg2-binary==2.9.9  # PostgreSQL adapter
+sqlparse==0.4.4         # SQL parsing
+
+# ============================================
+# WSGI Application Servers
+# ============================================
+gunicorn==21.2.0        # Production WSGI server
+whitenoise==6.6.0       # Static files serving
+
+# ============================================
+# External Services Integration
+# ============================================
+stripe==7.4.0           # Stripe payment processing
+sendgrid==6.11.0        # SendGrid email service
+twilio==8.10.0          # Twilio SMS/voice
+google-auth==2.25.2     # Google OAuth authentication
+google-auth-httplib2==1.2.0
+
+# ============================================
+# Authentication & Security
+# ============================================
+cryptography==41.0.7    # Encryption library
+pyjwt==2.8.1           # JWT token handling
+python-decouple==3.8   # Environment variable management
+
+# ============================================
+# File Handling
+# ============================================
+Pillow==10.1.0         # Image processing
+openpyxl==3.1.2        # Excel file handling
+python-magic==0.4.27   # File type detection
+
+# ============================================
+# Data Processing
+# ============================================
+pandas==2.1.3          # Data manipulation
+numpy==1.26.2          # Numerical computing
+celery==5.3.4          # Asynchronous task queue (optional)
+redis==5.0.1           # Redis client (optional)
+
+# ============================================
+# API & Data Serialization
+# ============================================
+requests==2.31.0       # HTTP library
+simplejson==3.19.2     # JSON serialization
+pyyaml==6.0.1          # YAML parsing
+
+# ============================================
+# Caching
+# ============================================
+django-redis==5.4.0    # Redis cache backend
+
+# ============================================
+# Development & Debugging
+# ============================================
+django-debug-toolbar==4.2.0  # Debug toolbar
+django-silk==5.0.3           # Request/response logging
+ipython==8.18.1              # Enhanced Python shell
+black==23.12.0               # Code formatter
+flake8==6.1.0                # Code linter
+isort==5.13.2                # Import sorter
+
+# ============================================
+# Testing
+# ============================================
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+factory-boy==3.3.0     # Test fixtures
+faker==22.0.0          # Fake data generation
+
+# ============================================
+# Monitoring & Logging
+# ============================================
+sentry-sdk==1.38.0     # Error tracking
+python-json-logger==2.0.7  # Structured logging
+
+# ============================================
+# Database Migrations
+# ============================================
+alembic==1.13.0        # Alternative migration tool
+
+# ============================================
+# API Documentation
+# ============================================
+drf-spectacular==0.26.5  # Auto-generated API docs (OpenAPI/Swagger)
+drf-yasg==1.21.7         # Alternative Swagger generator
