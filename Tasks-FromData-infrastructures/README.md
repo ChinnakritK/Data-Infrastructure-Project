@@ -1,4 +1,4 @@
-# My Django React App 🚀
+# My Django React App 
 
 Multi-container web application with Django REST API, React frontend, PostgreSQL database, and Nginx reverse proxy.
 
@@ -397,5 +397,4 @@ For issues or questions:
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 
 ---
-
-**Happy coding! 🎉**
+#Thankyou for oppotunity
