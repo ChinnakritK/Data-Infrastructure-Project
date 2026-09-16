@@ -1,36 +1,7 @@
-# My Django React App 🚀
+# My Django React App 
 
 Multi-container web application with Django REST API, React frontend, PostgreSQL database, and Nginx reverse proxy.
 
-## Architecture
-
-```
-┌─────────────┐
-│   Client    │
-└──────┬──────┘
-       │ HTTPS:443
-       ▼
-┌──────────────────────────────────┐
-│  Nginx (Reverse Proxy)           │
-│  - SSL/TLS                       │
-│  - Static file serving           │
-│  - API routing                   │
-│  - Rate limiting                 │
-└──────┬──────────────┬────────────┘
-       │              │
-       │ /static      │ /api
-       ▼              ▼
-┌─────────────┐  ┌────────────────┐
-│   React     │  │   Django       │
-│   Frontend  │  │   Backend      │
-└─────────────┘  └────────┬───────┘
-                          │
-                          ▼
-                  ┌────────────────┐
-                  │  PostgreSQL    │
-                  │   Database     │
-                  └────────────────┘
-```
 
 ## Features
 
